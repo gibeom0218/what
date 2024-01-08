@@ -1,0 +1,20 @@
+git에서 repository와 commit에 대해 간단하게 설명해주세요
+프로젝트 디렉토리의 특정 모습을 하나의 버전으로 남기는 행위와 결과물 - 커밋
+커밋이 저장되는 곳 - 레포지토리
+
+Untracked 상태와  Tracked상태에 대해 간단하게 설명해주세요
+Tracked상태는 터미널상태에서 깃 상태를 추적할때 해당 파일 앞에 modified라는 수정되었다는 메시지가 뜨고 수정여부를 계속
+추적하고 있는 상태를 의미한다.
+Untracked상태는 버전관리를 하지않아 수정내역을 추적하지 않는 상태를 의미한다.
+
+git의 working directory와 staging area 대해 설명해주세요
+이 두개는 git에서의 작업영역의 종류를 의미한다.
+working directory는 작업을 하는 프로젝트 디렉토리라는 의미로 working tree라고도 말한다.
+staging area는 git add를 한 파일들이 존재하는 영역이고 commit을 하게 되면 staging area에 있는 파일만 반영이된다.
+index라고도 불린다.
+
+
+pull request에 대해 설명해주세요
+사용자가 원격 저장소에 push를 하여 새로운 사항이 적용됐을때 다른 사용자에게 푸쉬알림을 하는 것이다.
+이것을 줄임말로 PR이라고 한다.
+이것을 해놓으면 코드리뷰와 내가 올린 코드에 협업자가 병합하여 사용할수있다.
